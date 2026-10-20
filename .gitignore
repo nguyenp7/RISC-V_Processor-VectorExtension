@@ -1,0 +1,68 @@
+
+# misc
+*.pdf
+
+# zip files
+*.zip
+*.gz
+*.tgz
+
+# verilog compilation
+build/
+__pycache__/
+*.py[cod]
+*simv
+*.daidir
+*.key
+*.vdb
+vc_hdrs.h
+debug_bin
+csrc/
+urgReport/
+
+# synthesis files
+synth/
+*.vg
+*.rep
+*.ddc
+*.chk
+*.log
+*.syn
+*.db
+*.svf
+*.mr
+*.pvl
+*_svsim.sv
+
+# verdi
+verdi*
+novas*
+*fsdb*
+
+# program memory compilation
+programs/mem/
+*.elf
+*.mem
+*.dump
+*.dump_*
+
+# per-run output files
+*.out
+*.cpi
+*.wb
+*.ppln
+
+# ignore the output folder
+# don't ignore the correct_out folder
+output/
+!correct_out/*
+
+# Extra
+programs/
+correct_out/
+.vscode/
+472synth.tcl
+tcl_reference.tcl
+# portable verification Python cache
+__pycache__/
+*.py[cod]
